@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    /* border: solid red; */
+    width: 100%;
+    height: 16vh;
+    align-items: center;
+}
+h2{
+    position: absolute;
+    left: 4vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    width: 90%;
+    /* border: solid yellow; */
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    /* border: solid darkblue; */
+    width: 42%;
+}
+li{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* border: solid green; */
+    width: 100%;
+    height: 7.5vh;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+span{
+    font-size: 20px;
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 900;
+    align-items: baseline;
+}
+
+
+main{
+    border: solid;
+    height: 150vh;
+}
+
+.firstSection{
+    background-image: url("/assets/orangeblue.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 89vh;
+    /* border: solid red; */
+}
