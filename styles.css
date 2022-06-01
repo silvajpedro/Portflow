@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,14 +20,14 @@ header{
 }
 h2{
     position: absolute;
-    left: 4vw;
+    left: 7vw;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     font-weight: 700;
 }
 nav{
     display: flex;
-    width: 90%;
+    width: 96%;
     /* border: solid yellow; */
     justify-content: flex-end;
 }
@@ -42,7 +46,8 @@ li{
     width: 100%;
     height: 7.5vh;
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 span{
     font-size: 20px;
@@ -53,14 +58,49 @@ span{
 
 
 main{
-    border: solid;
     height: 150vh;
 }
 
 .firstSection{
+    display: flex;
     background-image: url("/assets/orangeblue.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 89vh;
-    /* border: solid red; */
+    align-items: center;
+    justify-content: center;
+}
+.firstSection div{
+    display: flex;
+    width: 80%;
+    height: 20vh;
+}
+div p{
+    font-size: 55px;
+    align-items: flex-start;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+.p2Section{
+    position: absolute;
+    left: 10vw;
+    top: 66vh;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 25.3px;
+}
+.secondSection{
+    display: flex;
+    border: solid;
+    height: 800vh;
+    width: 100%;
+}
+.mainImages{
+    border: solid darkblue;
+    height: 280vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
 }
