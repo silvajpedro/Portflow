@@ -312,22 +312,22 @@ div p:hover{
     position: absolute;
     top:195vh;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     height: 3500px;
     width: 99%;
-    border: solid darkblue;
+    /* border: solid darkblue; */
 }
 .secondSection figure{
     display: flex;
-    height: 47.8vh;
-    width: 80%;
+    height: 85vh;
+    width: 85%;
     justify-content: center;
-    border: solid yellow;
+    /* border: solid yellow; */
 
 }
 .secondSection img{
-    height:30vh;
+    height:76vh;
     transition: ease-in-out 1s;
 }
 .secondSection img:hover{
