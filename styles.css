@@ -167,7 +167,7 @@ footer p{
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
-.p2Footer{
+.pFooter{
     position: absolute;
     left: 44.5vw;
     top: 5vh;
@@ -176,9 +176,12 @@ footer p{
     font-family: "Roboto", sans-serif;
     width: 31.5%;
 }
-.p2Footer a{
+.pFooter a{
     text-decoration: none;
     color: black;
+}
+.ancora{
+    display: none;
 }
 @media (max-width: 600px){
     header{
