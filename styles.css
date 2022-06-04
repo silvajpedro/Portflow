@@ -188,9 +188,6 @@ footer p{
 
 
 @media (max-width: 600px){
-body{
-    width: 100%;
-}
     header{
     position: absolute;
     display: flex;
@@ -229,7 +226,7 @@ nav:hover{
     justify-content: flex-start;
     transition: ease-in-out 1s;
     z-index: 10;
-} */
+}   estudar como fazer o menu hamburguer usando esse formato */ 
 .linha{
     position: relative;
     left: 38%;
@@ -254,7 +251,6 @@ ul{
     width: 100%;
     height:50vh;
     align-items:flex-start;
-    /* border: solid red; */
 }
 li{
     display: flex;
@@ -279,77 +275,60 @@ main{
 }
 .firstSection{
     position: relative;
-    top: 7.7vh;
+    top: 7.6vh;
     display: flex;
     background-image: url("/assets/laranja\ recortada.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 183.4vh;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 .firstSection div{
+    position: relative;
     display: flex;
-    width: 80%;
-    height: 20vh;
-    display: none;
+    top: 37vh;
+    left: 3.5vw;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 85%;
+    height: 55vh;
 }
 div p{
-    font-size: 55px;
-    align-items: flex-start;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    transition: ease-in-out 1s;
+    font-size: 80px;
+    transition:none;
     cursor: pointer;
-    display: none;
 }
 div p:hover{
-    font-size: 55px;
-    align-items: flex-start;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    transform: rotate(360deg);
+   font-size:80px;
 }
 .aSection{
     position: absolute;
-    left: 10vw;
-    top: 51.8vh;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 100;
-    font-size: 25.3px;
-    text-decoration: none;
-    transition: ease-in-out 0.8s;
-    display: none;
-}
-.aSection:hover{
-    text-decoration:underline;
-    transform: scale(110%);
+    left: 11.5vw;
+    top: 158vh;
 }
 .secondSection{
     position: absolute;
-    top:116.5vh;
+    top:195vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    height: 905px;
+    height: 3500px;
     width: 99%;
-    display: none;
+    border: solid darkblue;
 }
 .secondSection figure{
     display: flex;
     height: 47.8vh;
-    width: 21.8vw;
+    width: 80%;
     justify-content: center;
-    display: none;
+    border: solid yellow;
+
 }
 .secondSection img{
-    height:46.5vh;
+    height:30vh;
     transition: ease-in-out 1s;
-    display: none;
 }
 .secondSection img:hover{
     transform: scale(106.5%);
