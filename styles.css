@@ -158,11 +158,7 @@ footer section{
 }
 footer section img{
     height: 4.3vh;
-    /* transition: ease-in-out 0.7s; */
 }
-/* footer section img:hover{
-    transform: scale(115%);
-} */
 footer p{
     position: absolute;
     left: 36.5vw;
