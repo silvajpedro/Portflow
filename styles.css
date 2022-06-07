@@ -72,7 +72,7 @@ main{
     position: relative;
     top: 16.1vh;
     display: flex;
-    background-image: url("/assets/orangeblue.png");
+    background-image: url("./assets/orangeblue.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 90vh;
@@ -273,7 +273,7 @@ main{
     position: relative;
     top: 7.6vh;
     display: flex;
-    background-image: url("/assets/laranja\ recortada.png");
+    background-image: url("./assets/laranja\ recortada.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 183.4vh;
